@@ -21,7 +21,7 @@ SoftwareSerial fonaSS = SoftwareSerial(FONA_TX, FONA_RX);
 Adafruit_FONA fona = Adafruit_FONA(FONA_RST);
 
 
-char PHONE_1[21] = ""; // Enter your Mobile Number 
+char PHONE_1[21] = "+919897538995"; // Enter your Mobile Number 
 
 char tempalert[141]= "Flood Alert"  ; 
 void setup()
